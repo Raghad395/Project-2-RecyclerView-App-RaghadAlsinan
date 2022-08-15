@@ -6,9 +6,9 @@ Create an app that displays a list of data using RecyclerView library. Use local
 
 
 ## Steps 
-- Add RecyclerView library in Gradle file 
-- Add RecyclerView element in your Activity Main layout file 
-- Design item layout 
+- Add RecyclerView library in Gradle file .
+- Add RecyclerView element in your Activity Main layout file .
+- Design item layout .
 - Create Adapter class 
 - Create ViewHolder class 
 - Create Model class
