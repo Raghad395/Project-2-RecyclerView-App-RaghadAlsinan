@@ -1,17 +1,28 @@
 package com.example.project_2_recyclerview_app.data
 
 import com.example.project_2_recyclerview_app.R
-import com.example.project_2_recyclerview_app.model.Survey
+import com.example.project_2_recyclerview_app.model.Affirmation
 
+//hide away this data preparation in a separate Datasource class that prepares the data for the app.
 class Datasource {
 
     // list of items
-    fun loadSurvey() : List<Survey>{
+    fun loadAffirmations() : List<Affirmation>{
         return listOf(
-            Survey(R.string.Survey1, R.string.question_3, R.drawable.sv1),
-            Survey(R.string.Survey2, R.string.question_5, R.drawable.sv2),
-            Survey(R.string.Survey3, R.string.question_3, R.drawable.sv3)
+            Affirmation(R.string.affirmation1),
+            Affirmation(R.string.affirmation2),
+            Affirmation(R.string.affirmation3),
+            Affirmation(R.string.affirmation4),
+            Affirmation(R.string.affirmation5),
+            Affirmation(R.string.affirmation6),
+            Affirmation(R.string.affirmation7),
+            Affirmation(R.string.affirmation8),
+            Affirmation(R.string.affirmation9),
+            Affirmation(R.string.affirmation10)
         )
     }
+
+
     }
+
 
